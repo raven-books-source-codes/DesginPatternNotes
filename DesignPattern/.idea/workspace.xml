@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZZdsBO6UKFnVzVyhZl6EuyC9Mo" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/desginpattern/prototype/improve/clone" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\desginpattern\prototype\improve\clone" />
+      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\desginpattern\factory\abstractfactory\factory" />
+      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\desginpattern\factory\abstractfactory" />
+      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\uml\composite" />
+      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\inversion\improve" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="desginpattern.factory.facotrymethod.factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.factory.facotrymethod.PizzaStore" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.factory.facotrymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStore (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.factory.abstractfactory.PizzaStore" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.factory.simplefactory.order.PizzaStore" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.factory.simplefactory.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.singleton.type8.Test" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.singleton.type8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.prototype.Test" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.PizzaStore (2)" />
+        <item itemvalue="Application.PizzaStore (1)" />
+        <item itemvalue="Application.PizzaStore" />
+        <item itemvalue="Application.Test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="" />
+      <created>1585050754441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585050754441</updated>
+      <workItem from="1585050758701" duration="2226000" />
+      <workItem from="1585097352370" duration="2127000" />
+      <workItem from="1585099901828" duration="450000" />
+      <workItem from="1585100400466" duration="459000" />
+      <workItem from="1585100896796" duration="840000" />
+      <workItem from="1585101799373" duration="2889000" />
+      <workItem from="1585106002845" duration="102000" />
+      <workItem from="1585106134230" duration="295000" />
+      <workItem from="1585106475787" duration="946000" />
+      <workItem from="1585125989486" duration="84000" />
+      <workItem from="1585126083626" duration="616000" />
+      <workItem from="1585187531462" duration="6904000" />
+      <workItem from="1585272513365" duration="211000" />
+      <workItem from="1585272760027" duration="6872000" />
+      <workItem from="1585309947791" duration="48000" />
+      <workItem from="1585357006038" duration="7421000" />
+      <workItem from="1585393789890" duration="74000" />
+      <workItem from="1585484059741" duration="1823000" />
+      <workItem from="1585486387428" duration="4122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="109" key="#Custom_Plugin_Repositories" timestamp="1585100289361">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="367" y="109" key="#Custom_Plugin_Repositories/0.31.1549.840@0.31.1549.840" timestamp="1585100289361" />
+    <state x="413" y="90" key="#HTTP_Proxy" timestamp="1585105901774">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585489426858">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1585489426858" />
+    <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585103827471">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1549.840@0.31.1549.840" timestamp="1585103827471" />
+    <state x="555" y="192" key="FileChooserDialogImpl" timestamp="1585363190095">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585363190095" />
+    <state width="1506" height="165" key="GridCell.Tab.0.bottom" timestamp="1585490673198">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="165" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585490673198" />
+    <state width="1506" height="165" key="GridCell.Tab.0.center" timestamp="1585490673197">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="165" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1585490673197" />
+    <state width="1506" height="165" key="GridCell.Tab.0.left" timestamp="1585490673197">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="165" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1585490673197" />
+    <state width="1506" height="165" key="GridCell.Tab.0.right" timestamp="1585490673198">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="165" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1585490673198" />
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1585288007860">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="268" key="GridCell.Tab.1.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585288007860" />
+    <state width="1506" height="268" key="GridCell.Tab.1.center" timestamp="1585288007859">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="268" key="GridCell.Tab.1.center/0.31.1549.840@0.31.1549.840" timestamp="1585288007859" />
+    <state width="1506" height="268" key="GridCell.Tab.1.left" timestamp="1585288007859">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="268" key="GridCell.Tab.1.left/0.31.1549.840@0.31.1549.840" timestamp="1585288007859" />
+    <state width="1506" height="268" key="GridCell.Tab.1.right" timestamp="1585288007860">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="1506" height="268" key="GridCell.Tab.1.right/0.31.1549.840@0.31.1549.840" timestamp="1585288007860" />
+    <state x="284" y="92" key="SettingsEditor" timestamp="1585126097753">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="284" y="92" key="SettingsEditor/0.31.1549.840@0.31.1549.840" timestamp="1585126097753" />
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585393850598">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585393850598" />
+    <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585274365042">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.31.1549.840@0.31.1549.840" timestamp="1585274365042" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1585106546631">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.31.1549.840@0.31.1549.840" timestamp="1585106546631" />
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585359317428">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1585359317428" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../testuml.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
