@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="" />
+    <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/ComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/HighComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/LowComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/MediumComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/AbstractHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/HighHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/CommonHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/HighHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/builder/old/improve/HouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人笔记/11.原型模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人笔记/11.原型模式.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +50,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZZdsBO6UKFnVzVyhZl6EuyC9Mo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,9 +64,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/desginpattern/prototype/improve/clone" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -55,7 +82,33 @@
       <recent name="desginpattern.factory.facotrymethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.builder.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.builder.old.improve.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.builder.old.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaStore (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.factory.facotrymethod.PizzaStore" />
       <module name="DesignPattern" />
@@ -82,32 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.factory.simplefactory.order.PizzaStore" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desginpattern.factory.simplefactory.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.singleton.type8.Test" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desginpattern.singleton.type8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.prototype.Test" />
       <module name="DesignPattern" />
@@ -123,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.PizzaStore (2)" />
         <item itemvalue="Application.PizzaStore (1)" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +187,7 @@
       <workItem from="1585393789890" duration="74000" />
       <workItem from="1585484059741" duration="1823000" />
       <workItem from="1585486387428" duration="4122000" />
+      <workItem from="1585530323506" duration="7456000" />
     </task>
     <servers />
   </component>
@@ -175,10 +203,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585489426858">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585572211186">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1585489426858" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1585572211186" />
     <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585103827471">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -187,22 +215,22 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585363190095" />
-    <state width="1506" height="165" key="GridCell.Tab.0.bottom" timestamp="1585490673198">
+    <state width="1506" height="165" key="GridCell.Tab.0.bottom" timestamp="1585572298631">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="165" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585490673198" />
-    <state width="1506" height="165" key="GridCell.Tab.0.center" timestamp="1585490673197">
+    <state width="1506" height="165" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585572298631" />
+    <state width="1506" height="165" key="GridCell.Tab.0.center" timestamp="1585572298630">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="165" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1585490673197" />
-    <state width="1506" height="165" key="GridCell.Tab.0.left" timestamp="1585490673197">
+    <state width="1506" height="165" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1585572298630" />
+    <state width="1506" height="165" key="GridCell.Tab.0.left" timestamp="1585572298630">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="165" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1585490673197" />
-    <state width="1506" height="165" key="GridCell.Tab.0.right" timestamp="1585490673198">
+    <state width="1506" height="165" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1585572298630" />
+    <state width="1506" height="165" key="GridCell.Tab.0.right" timestamp="1585572298630">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="165" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1585490673198" />
+    <state width="1506" height="165" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1585572298630" />
     <state width="1506" height="268" key="GridCell.Tab.1.bottom" timestamp="1585288007860">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -223,10 +251,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="284" y="92" key="SettingsEditor/0.31.1549.840@0.31.1549.840" timestamp="1585126097753" />
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585393850598">
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585530333430">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585393850598" />
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585530333430" />
     <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585274365042">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -235,10 +263,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.31.1549.840@0.31.1549.840" timestamp="1585106546631" />
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585359317428">
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585571130896">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1585359317428" />
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1585571130896" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
