@@ -1,5 +1,7 @@
 package desginpattern.bridge;
 
+import java.io.InputStream;
+
 /**
  * @author Raven
  * @version 1.0
@@ -15,5 +17,6 @@ public class Client {
         Phone phone2 = new UpRightPhone(new Vivo());
         phone2.open();
         phone2.close();
+
     }
 }
