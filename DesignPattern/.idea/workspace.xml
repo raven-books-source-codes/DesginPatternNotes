@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/composite/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/composite/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/composite/OrganizationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/composite/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +70,13 @@
       <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\uml\composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.adapter.objectadapter.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.composite.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.adapter.objectadapter.*" />
+          <option name="PATTERN" value="desginpattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.globaltest.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.composite.Test" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.globaltest.*" />
+          <option name="PATTERN" value="desginpattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +179,8 @@
       <workItem from="1585643049223" duration="3688000" />
       <workItem from="1585708009213" duration="2496000" />
       <workItem from="1585788312473" duration="7888000" />
+      <workItem from="1585804675514" duration="60000" />
+      <workItem from="1585879601969" duration="4991000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -209,38 +216,38 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585797833659">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1585880572604">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1585797833659" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1585880572604" />
     <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585103827471">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1549.840@0.31.1549.840" timestamp="1585103827471" />
-    <state x="316" y="40" key="CommitChangelistDialog2" timestamp="1585798584188">
+    <state x="316" y="40" key="CommitChangelistDialog2" timestamp="1585885415433">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="316" y="40" key="CommitChangelistDialog2/0.31.1549.840@0.31.1549.840" timestamp="1585798584188" />
+    <state x="316" y="40" key="CommitChangelistDialog2/0.31.1549.840@0.31.1549.840" timestamp="1585885415433" />
     <state x="555" y="192" key="FileChooserDialogImpl" timestamp="1585709269366">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="237" key="GridCell.Tab.0.bottom" timestamp="1585798811890">
+    <state width="1506" height="119" key="GridCell.Tab.0.bottom" timestamp="1585882005274">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
-    <state width="1506" height="237" key="GridCell.Tab.0.center" timestamp="1585798811889">
+    <state width="1506" height="119" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585882005274" />
+    <state width="1506" height="119" key="GridCell.Tab.0.center" timestamp="1585882005273">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1585798811889" />
-    <state width="1506" height="237" key="GridCell.Tab.0.left" timestamp="1585798811889">
+    <state width="1506" height="119" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1585882005273" />
+    <state width="1506" height="119" key="GridCell.Tab.0.left" timestamp="1585882005273">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1585798811889" />
-    <state width="1506" height="237" key="GridCell.Tab.0.right" timestamp="1585798811890">
+    <state width="1506" height="119" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1585882005273" />
+    <state width="1506" height="119" key="GridCell.Tab.0.right" timestamp="1585882005274">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
+    <state width="1506" height="119" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1585882005274" />
     <state width="1506" height="237" key="GridCell.Tab.1.bottom" timestamp="1585798811890">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -265,10 +272,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="367" y="183" key="Vcs.Push.Dialog.v2/0.31.1549.840@0.31.1549.840" timestamp="1585798596601" />
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585643492063">
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585804681426">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585643492063" />
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585804681426" />
     <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585274365042">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
