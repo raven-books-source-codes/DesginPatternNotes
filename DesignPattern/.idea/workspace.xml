@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/DVDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/Popcorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/facade/TheaterLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/ConcreteWebSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/WebSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/flyweight/WebSiteFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
       <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\uml\composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.composite.Client" />
       <module name="DesignPattern" />
@@ -101,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.decorator.Client" />
+      <option name="MAIN_CLASS_NAME" value="desginpattern.flyweight.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.decorator.io.*" />
+          <option name="PATTERN" value="desginpattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.decorator.io.Test" />
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.flyweight.IntegerTest" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.decorator.io.*" />
+          <option name="PATTERN" value="desginpattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.IntegerTest" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +184,7 @@
       <workItem from="1585879601969" duration="6039000" />
       <workItem from="1585998835319" duration="243000" />
       <workItem from="1585999402536" duration="1943000" />
+      <workItem from="1586050367458" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -221,10 +220,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586001561473">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586054441329">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586001561473" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586054441329" />
     <state x="506" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585103827471">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -237,38 +236,38 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="119" key="GridCell.Tab.0.bottom" timestamp="1586002069871">
+    <state width="1506" height="222" key="GridCell.Tab.0.bottom" timestamp="1586054749807">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="119" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586002069871" />
-    <state width="1506" height="119" key="GridCell.Tab.0.center" timestamp="1586002069871">
+    <state width="1506" height="222" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586054749807" />
+    <state width="1506" height="222" key="GridCell.Tab.0.center" timestamp="1586054749806">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="119" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586002069871" />
-    <state width="1506" height="119" key="GridCell.Tab.0.left" timestamp="1586002069871">
+    <state width="1506" height="222" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586054749806" />
+    <state width="1506" height="222" key="GridCell.Tab.0.left" timestamp="1586054749806">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="119" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586002069871" />
-    <state width="1506" height="119" key="GridCell.Tab.0.right" timestamp="1586002069871">
+    <state width="1506" height="222" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586054749806" />
+    <state width="1506" height="222" key="GridCell.Tab.0.right" timestamp="1586054749806">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="119" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586002069871" />
-    <state width="1506" height="237" key="GridCell.Tab.1.bottom" timestamp="1585798811890">
+    <state width="1506" height="222" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586054749806" />
+    <state width="1506" height="204" key="GridCell.Tab.1.bottom" timestamp="1586054006534">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.1.bottom/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
-    <state width="1506" height="237" key="GridCell.Tab.1.center" timestamp="1585798811890">
+    <state width="1506" height="204" key="GridCell.Tab.1.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586054006534" />
+    <state width="1506" height="204" key="GridCell.Tab.1.center" timestamp="1586054006531">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.1.center/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
-    <state width="1506" height="237" key="GridCell.Tab.1.left" timestamp="1585798811890">
+    <state width="1506" height="204" key="GridCell.Tab.1.center/0.31.1549.840@0.31.1549.840" timestamp="1586054006531" />
+    <state width="1506" height="204" key="GridCell.Tab.1.left" timestamp="1586054006531">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.1.left/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
-    <state width="1506" height="237" key="GridCell.Tab.1.right" timestamp="1585798811890">
+    <state width="1506" height="204" key="GridCell.Tab.1.left/0.31.1549.840@0.31.1549.840" timestamp="1586054006531" />
+    <state width="1506" height="204" key="GridCell.Tab.1.right" timestamp="1586054006534">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="237" key="GridCell.Tab.1.right/0.31.1549.840@0.31.1549.840" timestamp="1585798811890" />
+    <state width="1506" height="204" key="GridCell.Tab.1.right/0.31.1549.840@0.31.1549.840" timestamp="1586054006534" />
     <state x="466" y="161" key="RollbackChangesDialog" timestamp="1586001484750">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -319,6 +318,11 @@
           <url>jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/io/LineNumberReader.java</url>
           <line>71</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/desginpattern/flyweight/IntegerTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
