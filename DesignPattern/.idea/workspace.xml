@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/cglib/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/jdkproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/jdkproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/jdkproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/staticproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/staticproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/proxy/staticproxy/TeacherProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/template/PeanutMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/template/PureSoya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/template/RedBeanMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/template/SoyaMilk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -81,13 +76,13 @@
       <recent name="desginpattern.factory.facotrymethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.facade.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.template.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.facade.*" />
+          <option name="PATTERN" value="desginpattern.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.IntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +203,8 @@
       <workItem from="1585998835319" duration="243000" />
       <workItem from="1585999402536" duration="1943000" />
       <workItem from="1586050367458" duration="4292000" />
-      <workItem from="1586139649302" duration="2910000" />
+      <workItem from="1586139649302" duration="3695000" />
+      <workItem from="1586220160079" duration="3745000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -244,10 +240,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586141386735">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586222691049">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586141386735" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586222691049" />
     <state x="505" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586141526624">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -264,38 +260,38 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="230" key="GridCell.Tab.0.bottom" timestamp="1586142734096">
+    <state width="1506" height="2" key="GridCell.Tab.0.bottom" timestamp="1586224376519">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586142734096" />
-    <state width="1506" height="230" key="GridCell.Tab.0.center" timestamp="1586142734096">
+    <state width="1506" height="2" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586224376519" />
+    <state width="1506" height="2" key="GridCell.Tab.0.center" timestamp="1586224376519">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586142734096" />
-    <state width="1506" height="230" key="GridCell.Tab.0.left" timestamp="1586142734094">
+    <state width="1506" height="2" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586224376519" />
+    <state width="1506" height="2" key="GridCell.Tab.0.left" timestamp="1586224376519">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586142734094" />
-    <state width="1506" height="230" key="GridCell.Tab.0.right" timestamp="1586142734096">
+    <state width="1506" height="2" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586224376519" />
+    <state width="1506" height="2" key="GridCell.Tab.0.right" timestamp="1586224376519">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586142734096" />
-    <state width="1506" height="230" key="GridCell.Tab.1.bottom" timestamp="1586142734981">
+    <state width="1506" height="2" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586224376519" />
+    <state width="1506" height="230" key="GridCell.Tab.1.bottom" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.1.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586142734981" />
-    <state width="1506" height="230" key="GridCell.Tab.1.center" timestamp="1586142734980">
+    <state width="1506" height="230" key="GridCell.Tab.1.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586143756456" />
+    <state width="1506" height="230" key="GridCell.Tab.1.center" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.1.center/0.31.1549.840@0.31.1549.840" timestamp="1586142734980" />
-    <state width="1506" height="230" key="GridCell.Tab.1.left" timestamp="1586142734980">
+    <state width="1506" height="230" key="GridCell.Tab.1.center/0.31.1549.840@0.31.1549.840" timestamp="1586143756456" />
+    <state width="1506" height="230" key="GridCell.Tab.1.left" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.1.left/0.31.1549.840@0.31.1549.840" timestamp="1586142734980" />
-    <state width="1506" height="230" key="GridCell.Tab.1.right" timestamp="1586142734980">
+    <state width="1506" height="230" key="GridCell.Tab.1.left/0.31.1549.840@0.31.1549.840" timestamp="1586143756456" />
+    <state width="1506" height="230" key="GridCell.Tab.1.right" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="230" key="GridCell.Tab.1.right/0.31.1549.840@0.31.1549.840" timestamp="1586142734980" />
+    <state width="1506" height="230" key="GridCell.Tab.1.right/0.31.1549.840@0.31.1549.840" timestamp="1586143756456" />
     <state x="466" y="161" key="RollbackChangesDialog" timestamp="1586001484750">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
