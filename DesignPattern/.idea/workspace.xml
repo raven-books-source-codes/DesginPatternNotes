@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/LightCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/LighteRecevier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/command/RemoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人笔记/21.命令模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人笔记/21.命令模式.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +201,7 @@
       <workItem from="1586139649302" duration="3695000" />
       <workItem from="1586220160079" duration="3745000" />
       <workItem from="1586313283961" duration="2409000" />
+      <workItem from="1586317249984" duration="175000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -306,10 +301,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="367" y="183" key="Vcs.Push.Dialog.v2/0.31.1549.840@0.31.1549.840" timestamp="1585798596601" />
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585999412616">
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1586317417321">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1585999412616" />
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1586317417321" />
     <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585274365042">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
