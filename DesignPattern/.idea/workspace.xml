@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/SaleCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/visitor/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +189,7 @@
       <workItem from="1586220160079" duration="3745000" />
       <workItem from="1586313283961" duration="2409000" />
       <workItem from="1586317249984" duration="175000" />
-      <workItem from="1586401865104" duration="2731000" />
+      <workItem from="1586401865104" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
