@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/KlinesIceCreamMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/KlinesIceCreamMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/OnlineMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/PeddlersIceCreamMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/iterator/PeddlersIceCreamMenuIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +79,7 @@
       <recent name="desginpattern.factory.facotrymethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.template.Client" />
       <module name="DesignPattern" />
@@ -91,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desginpattern.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.proxy.jdkproxy.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desginpattern.proxy.jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.iterator.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +197,8 @@
       <workItem from="1586220160079" duration="3745000" />
       <workItem from="1586313283961" duration="2409000" />
       <workItem from="1586317249984" duration="175000" />
-      <workItem from="1586401865104" duration="3375000" />
+      <workItem from="1586401865104" duration="3391000" />
+      <workItem from="1586480875701" duration="6180000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -225,10 +234,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586404245166">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586484941706">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586404245166" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586484941706" />
     <state x="505" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586141526624">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -245,22 +254,22 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="209" key="GridCell.Tab.0.bottom" timestamp="1586316927485">
+    <state width="1506" height="255" key="GridCell.Tab.0.bottom" timestamp="1586485133023">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="209" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586316927485" />
-    <state width="1506" height="209" key="GridCell.Tab.0.center" timestamp="1586316927485">
+    <state width="1506" height="255" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586485133023" />
+    <state width="1506" height="255" key="GridCell.Tab.0.center" timestamp="1586485133023">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="209" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586316927485" />
-    <state width="1506" height="209" key="GridCell.Tab.0.left" timestamp="1586316927485">
+    <state width="1506" height="255" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586485133023" />
+    <state width="1506" height="255" key="GridCell.Tab.0.left" timestamp="1586485133023">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="209" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586316927485" />
-    <state width="1506" height="209" key="GridCell.Tab.0.right" timestamp="1586316927485">
+    <state width="1506" height="255" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586485133023" />
+    <state width="1506" height="255" key="GridCell.Tab.0.right" timestamp="1586485133023">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state width="1506" height="209" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586316927485" />
+    <state width="1506" height="255" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586485133023" />
     <state width="1506" height="230" key="GridCell.Tab.1.bottom" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -309,10 +318,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="179" y="145" key="new project wizard/0.31.1549.840@0.31.1549.840" timestamp="1585887691680" />
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1585792576757">
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1586483430478">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1585792576757" />
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1586483430478" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
