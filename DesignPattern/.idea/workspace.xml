@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/CoffeeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/Curtains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/HouseMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/MachineName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/mediator/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/memento/GameRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/memento/Memento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +76,7 @@
       <recent name="desginpattern.factory.facotrymethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.template.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desginpattern.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.command.Client" />
       <module name="DesignPattern" />
@@ -114,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desginpattern.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desginpattern.memento.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desginpattern.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +211,7 @@
       <workItem from="1586480875701" duration="7122000" />
       <workItem from="1586571680121" duration="3111000" />
       <workItem from="1586662309930" duration="5560000" />
+      <workItem from="1586781646418" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -251,10 +247,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586666940104">
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586782160252">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586666940104" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586782160252" />
     <state x="529" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586573753552">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -275,38 +271,38 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="239" key="GridCell.Tab.0.bottom" timestamp="1586675396118">
+    <state width="1506" height="239" key="GridCell.Tab.0.bottom" timestamp="1586782316661">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.bottom.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="239" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586675396118" />
-    <state width="1506" height="239" key="GridCell.Tab.0.center" timestamp="1586675396116">
+    <state width="1506" height="239" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586782316661" />
+    <state width="1506" height="239" key="GridCell.Tab.0.center" timestamp="1586782316661">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.center.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="239" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586675396116" />
-    <state width="1506" height="239" key="GridCell.Tab.0.left" timestamp="1586675396116">
+    <state width="1506" height="239" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586782316661" />
+    <state width="1506" height="239" key="GridCell.Tab.0.left" timestamp="1586782316661">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.left.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="239" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586675396116" />
-    <state width="1506" height="239" key="GridCell.Tab.0.right" timestamp="1586675396117">
+    <state width="1506" height="239" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586782316661" />
+    <state width="1506" height="239" key="GridCell.Tab.0.right" timestamp="1586782316661">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.right.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="239" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586675396117" />
+    <state width="1506" height="239" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586782316661" />
     <state width="1506" height="230" key="GridCell.Tab.1.bottom" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -335,10 +331,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="367" y="183" key="Vcs.Push.Dialog.v2/0.31.1549.840@0.31.1549.840" timestamp="1585798596601" />
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1586662308618">
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1586781644345">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1586662308618" />
+    <state x="468" y="274" key="com.intellij.ide.util.TipDialog/0.31.1549.840@0.31.1549.840" timestamp="1586781644345" />
     <state x="29" y="36" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585274365042">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
