@@ -1,4 +1,4 @@
-package com.atguigu.interpreter;
+package desginpattern.interpreter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,6 @@ import java.util.HashMap;
 public class ClientTest {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		String expStr = getExpStr(); // a+b
 		HashMap<String, Integer> var = getValue(expStr);// var {a=10, b=20}
 		Calculator calculator = new Calculator(expStr);
