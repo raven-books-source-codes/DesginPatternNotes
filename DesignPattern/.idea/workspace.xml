@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c54bb8-32e6-4ece-9674-d7e69f560943" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/BadDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/CanLotteryState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/DispatchRewardState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/GameEndState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/NoPriceDrawState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desginpattern/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/BeiJingDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/BeiJingDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/CanFlyBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/CanSwimBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/FlyBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/GagaQuarkBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/NewDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/NoFlyBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/NoQuarkBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/NoSwimBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/QuackBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/SwimBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/improve/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/jdk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/personalthinking/Behaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/personalthinking/JumpBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desginpattern/strategy/personalthinking/NoJumpBehaviour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,28 +73,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/desginpattern/interpreter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/desginpattern/strategy/improve" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.38850576" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="desginpattern.factory.facotrymethod.factory" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="desginpattern.proxy.cglib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raven\Desktop\技术\设计模式\DesginPatternNotes\DesignPattern\src\desginpattern\strategy\improve" />
       <recent name="C:\Users\Raven\Desktop\技术\设计模式\DesginPatternNotes\DesignPattern\src\desginpattern\interpreter" />
       <recent name="C:\Users\Raven\Desktop\设计模式\DesginPatternNotes\DesignPattern\src\desginpattern\proxy\cglib\lib" />
       <recent name="C:\Users\Raven\Desktop\设计模式\DesginPatternNotes\DesignPattern\src\desginpattern\adapter\objectadapter" />
       <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\desginpattern\prototype\improve\clone" />
-      <recent name="C:\Users\Raven\IdeaProjects\DesignPattern\src\desginpattern\factory\abstractfactory\factory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="desginpattern.proxy.cglib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="desginpattern.factory.facotrymethod.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desginpattern.state.Client" />
       <module name="DesignPattern" />
@@ -120,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desginpattern.iterator.Client" />
+      <option name="MAIN_CLASS_NAME" value="desginpattern.strategy.improve.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desginpattern.iterator.*" />
+          <option name="PATTERN" value="desginpattern.strategy.personalthinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +233,9 @@
       <workItem from="1586786336303" duration="3000" />
       <workItem from="1586845047175" duration="775000" />
       <workItem from="1586854037347" duration="243000" />
-      <workItem from="1586912551745" duration="5459000" />
+      <workItem from="1586912551745" duration="5632000" />
+      <workItem from="1586920117947" duration="42000" />
+      <workItem from="1586999954909" duration="4102000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1585648157327</created>
@@ -254,10 +271,14 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="413" y="90" key="#HTTP_Proxy/0.31.1549.840@0.31.1549.840" timestamp="1585105901774" />
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1586916155859">
+    <state x="660" y="312" key="#Notifications" timestamp="1587001918409">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1586916155859" />
+    <state x="660" y="312" key="#Notifications/0.31.1549.840@0.31.1549.840" timestamp="1587001918409" />
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1587004271265">
+      <screen x="0" y="31" width="1549" height="840" />
+    </state>
+    <state x="580" y="160" key="#com.intellij.ide.util.MemberChooser/0.31.1549.840@0.31.1549.840" timestamp="1587004271265" />
     <state x="529" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586573753552">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -278,38 +299,38 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="555" y="192" key="FileChooserDialogImpl/0.31.1549.840@0.31.1549.840" timestamp="1585709269366" />
-    <state width="1506" height="248" key="GridCell.Tab.0.bottom" timestamp="1586917906126">
+    <state width="1506" height="248" key="GridCell.Tab.0.bottom" timestamp="1587006226424">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.bottom.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="248" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1586917906126" />
-    <state width="1506" height="248" key="GridCell.Tab.0.center" timestamp="1586917906126">
+    <state width="1506" height="248" key="GridCell.Tab.0.bottom/0.31.1549.840@0.31.1549.840" timestamp="1587006226424" />
+    <state width="1506" height="248" key="GridCell.Tab.0.center" timestamp="1587006226423">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.center.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="248" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1586917906126" />
-    <state width="1506" height="248" key="GridCell.Tab.0.left" timestamp="1586917906126">
+    <state width="1506" height="248" key="GridCell.Tab.0.center/0.31.1549.840@0.31.1549.840" timestamp="1587006226423" />
+    <state width="1506" height="248" key="GridCell.Tab.0.left" timestamp="1587006226423">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.left.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="248" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1586917906126" />
-    <state width="1506" height="248" key="GridCell.Tab.0.right" timestamp="1586917906126">
+    <state width="1506" height="248" key="GridCell.Tab.0.left/0.31.1549.840@0.31.1549.840" timestamp="1587006226423" />
+    <state width="1506" height="248" key="GridCell.Tab.0.right" timestamp="1587006226424">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1586667244466">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state width="1549" height="304" key="GridCell.Tab.0.right.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667244466" />
-    <state width="1506" height="248" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1586917906126" />
+    <state width="1506" height="248" key="GridCell.Tab.0.right/0.31.1549.840@0.31.1549.840" timestamp="1587006226424" />
     <state width="1506" height="230" key="GridCell.Tab.1.bottom" timestamp="1586143756456">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -330,10 +351,10 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="466" y="161" key="RollbackChangesDialog/0.31.1549.840@0.31.1549.840" timestamp="1586001484750" />
-    <state x="284" y="31" key="SettingsEditor" timestamp="1586142565611">
+    <state x="284" y="31" key="SettingsEditor" timestamp="1587001934033">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
-    <state x="284" y="31" key="SettingsEditor/0.31.1549.840@0.31.1549.840" timestamp="1586142565611" />
+    <state x="284" y="31" key="SettingsEditor/0.31.1549.840@0.31.1549.840" timestamp="1587001934033" />
     <state x="367" y="183" key="Vcs.Push.Dialog.v2" timestamp="1585798596601">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
@@ -370,14 +391,14 @@
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="432" y="207" key="run.anything.popup/0.31.1549.840@0.31.1549.840" timestamp="1586917600522" />
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1586916472425">
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1587003261631">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="345" y="177" width="857" height="693" key="search.everywhere.popup.inPresentationMode" timestamp="1586667139124">
       <screen x="0" y="31" width="1549" height="840" />
     </state>
     <state x="345" y="177" width="857" height="693" key="search.everywhere.popup.inPresentationMode/0.31.1549.840@0.31.1549.840" timestamp="1586667139124" />
-    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1586916472425" />
+    <state x="437" y="194" width="672" height="678" key="search.everywhere.popup/0.31.1549.840@0.31.1549.840" timestamp="1587003261631" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
