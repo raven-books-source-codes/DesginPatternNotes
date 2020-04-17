@@ -37,7 +37,7 @@
 
 [16.组合模式](https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/16.组合模式.md)
 
-[[17.外观模式]()https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/17.外观模式](https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/[17.外观模式]()https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/17.外观模式.md)
+[17.外观模式](https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/17.外观模式)
 
 [18.享元模式](https://github.com/raven-books-source-codes/DesginPatternNotes/blob/master/个人笔记/18.享元模式.md)
 
